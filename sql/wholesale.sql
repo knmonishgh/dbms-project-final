@@ -87,8 +87,7 @@ INSERT INTO `customer` (`cust_id`, `cust_name`, `email_id`, `password`) VALUES
 ('praveen', 'Praveen YT', 'praveenyt@gmail.com', 'praveen'),
 ('saket', 'Saket Kumar', 'saketk@gmail.com', 'saket'),
 ('shivu', 'shivaprasad', 'shiva@gmail.com', 'shivu'),
-('shrinidhi', 'Shrinidhi MK', 'shrinidhimk@gmail.com', 'shrinidhi'),
-('swamy', 'swamy', 'swamydm@gmail.com', 'swamy');
+('shrinidhi', 'Shrinidhi MK', 'shrinidhimk@gmail.com', 'shrinidhi');
 
 -- --------------------------------------------------------
 
@@ -214,9 +213,11 @@ ALTER TABLE `products`
 --
 -- Indexes for table `transaction`
 --
+
 ALTER TABLE `transaction`
   ADD PRIMARY KEY (`transaction_id`);
-
+  ALTER TABLE `transaction`
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 --
 -- AUTO_INCREMENT for dumped tables
 --

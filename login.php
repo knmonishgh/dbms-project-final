@@ -9,7 +9,7 @@
 	if($conn){
 		$user=$_POST['user'];
 		$pass=$_POST['pass'];
-		if ($user=="kush" and $pass=="kush") {
+		if ($user=="Presidency" and $pass=="admin@presidency") {
 			session_start();
 			$_SESSION['loginUser']=$user;
 			header("Location:adminHome.php");

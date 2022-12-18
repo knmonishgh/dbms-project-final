@@ -13,9 +13,9 @@
 
 <body class='loginBody'>
 	<div class="topStyle">
-		<h2 style="color:white;">Wholesale DataBase Management</h2>
+		<h2 style="color:white;">Wholesale Management</h2>
 		<button id='userLogin' class='btn na'>Login</button>&nbsp
-		<button id='createAccount' class='btn na'>Create New Account</button>
+		<button id='createAccount' class='btn na'>Register</button>
 		<button id='Adminlogin' class='btn na'>Admin</button>
 	</div>
 	<div class="mybox" style="display:inline-block;">
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 <div class="copyright">
-	<h3>©Kushala</h3>
+	<h3>&#169Presidency university</h3>
 </div>
 </body>
 <script type="text/javascript">

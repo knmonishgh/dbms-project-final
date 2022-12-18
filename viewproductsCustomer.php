@@ -18,12 +18,12 @@
 </head> 
 <body>
 	<div class="topStyle">
-		<h2 style="color:white;">Wholesale DataBase Management</h2>
-		<a class='userNameDisplay'><?php echo $_SESSION['loginUser']; ?></a>
+		<h2 style="color:white;">Wholesale Management</h2>
+		<a class='userNameDisplay'><img src="https://www.pngarts.com/files/10/Default-Profile-Picture-Transparent-Image.png" width="30px" height="30px"><?php echo $_SESSION['loginUser']; ?></a>
 	</div>
 	<div class='sidebar'>
 		<button onclick="location.href='customerHome.php'">Home</button>
-		<button onclick="location.href='viewProductsCustomer.php'">View Products</button>
+		<button onclick="location.href='viewProductsCustomer.php'" >View Products</button>
 		<button onclick="location.href='order.php'">Order</button>
 		<button onclick="location.href='cart.php'">Cart</button>
 		<button onclick="location.href='customerViewTransactions.php'">My Transactions</button>
